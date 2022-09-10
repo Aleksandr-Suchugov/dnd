@@ -40,7 +40,6 @@ ul, li {
 }
 
 .item {
-  width: 100%;
   padding: 20px 10px;
   box-sizing: border-box;
   font-size: 20px;
@@ -151,7 +150,7 @@ ul, li {
 }
 
 .dragged {
-  max-width: 200px;
+  width: 250px;
   border-radius: 5px;
   z-index: 999;
   pointer-events: none;
